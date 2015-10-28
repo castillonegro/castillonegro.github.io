@@ -1,0 +1,140 @@
+/*
+	Tema Black css by Ginko (unfinished)
+*/
+
+body {
+	background-color: #070707;
+	color: #dedede;
+	font: 1em normal 'Arial';
+	width: 90%;
+}
+
+p {
+	font: 1em;
+	line-height: 1.5em;
+	word-wrap: break-word;
+}
+
+a, a:link, a:visited  {
+	border-bottom: 1px dashed #fff;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #00bbff;
+	color: #00ccff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #fff; 
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+h4,h5,h6 { font-size: 1em; }
+
+strong { 
+	color: white;
+}
+
+em { 
+	color: Wheat;
+	font-style: normal;
+}
+
+figure {
+	background-color: black;
+	font-size: 0.8em;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+}
+
+figure img {
+	height: auto;
+	max-width: 100%;
+}
+
+figcaption {
+	color: silver !important;
+	padding-top: 1em;
+}
+
+figcaption strong {
+	color: white;
+}
+
+header h1, section h2, section h3 {
+	border-bottom: 2px solid #fff;
+}
+
+header h1 a {
+	border: 0px !important;
+	color: #fff !important;
+}
+
+article h1, h3{
+	border-bottom: 2px solid white !important;
+	font-size: 1em;
+}
+
+article footer {
+	border: 0;a
+	border-top: 1px dashed grey;
+	color: grey;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	* {
+		text-align: left;
+	}
+	body {
+		margin: auto !important;
+	}
+	#menu, #content {
+		width: 100% !important;
+	}
+}
+
+#menu {
+	display:block;
+	float: left;
+	width: 30%;
+}
+
+#content {
+	display:block;
+	float: right;
+	width: 70%;
+}
+
+
+#content ul li:before {
+  content: "\2605";
+  padding-right:0.5em;
+}
+
+nav ul li{
+	display: inline;
+	margin-right: 1em;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul li {
+	line-height: 1.5em;
+	padding-bottom: 0.25em;
+}
+
+footer {
+	border-top: 2px solid #ccc;
+	clear: both;
+}
